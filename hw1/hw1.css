@@ -23,7 +23,7 @@
     background-position: 50% 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -32,12 +32,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6% 0% 0% 52.5%;
+    padding: 12.5vh 0 0 52vw;
 }
 
 .form{
     width: 26.8vw;
-    height: 65vh;
+    height: 32.5vw;
     background-color: #ffffff;
     border: 2px #CCCCCC solid; 
     box-shadow: 0px 0px 15px #CCCCCC;
@@ -52,21 +52,21 @@
 .input, .link, .btn1, .btn2{
     width: 22.2vw;
     font-weight: bold;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1em;
     text-align: center;
 }
 
 .input, .btn1, .btn2{
     height: 3.9vw;
-    line-height: 2.7vh;
-    padding: 1.3vw;
+    padding: 0.7em;
     border-radius: 15px;
-    font-size: 1.57vw;
+    font-size: 1.5vw;
+    outline: none;
 }
 
 .input{
     text-align: left;
-    color: #CCCCCC;
+    color: #848384;
     border: 2px #CCCCCC solid; 
 }
 
@@ -81,11 +81,11 @@ input::placeholder{
 .link{
     height: 5.3vh;
     text-decoration: none;
-    font-size: 1.31vw;
+    font-size: 1.3vw;
     border-bottom: 2px #CCCCCC solid; 
     color: #D3CFD3;
-    padding-bottom: 1vw;
-    margin: 0.7vw;
+    padding-bottom: 1em;
+    margin: 0.7em;
 }
 
 .link:hover{
@@ -97,6 +97,7 @@ input::placeholder{
     background-color: #4F4E4F;
     border: 2px #CCCCCC solid; 
     color: #ffffff;
+    cursor: pointer;
 }
 
 .btn1:hover{
@@ -107,6 +108,7 @@ input::placeholder{
     background-color: #4065ED;
     border: 2px #CCCCCC solid; 
     color: #ffffff;
+    cursor: pointer;
 }
 
 .btn2:hover{
@@ -116,13 +118,13 @@ input::placeholder{
 .slogon1{
     width: 33.6vw;
     height: 3.3vh;
-    margin-top: 5%;
+    margin-top: 3vh;
 }
 
 .more{
     width: 25.6vw;
     height: 8.6vh;
-    margin-top: 1.5%;
+    cursor: pointer;
 }
 
 .background2{
@@ -136,7 +138,7 @@ input::placeholder{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8% 45% 0% 0%;
+    padding: 16vh 44vw 0 0;
 }
 
 .intro{
@@ -159,6 +161,7 @@ input::placeholder{
     background-repeat: no-repeat;
     width: 14.4vw;
     height: 7.6vh;
+    cursor: pointer;
 }
 
 .btn3:hover{
@@ -168,5 +171,5 @@ input::placeholder{
 .slogon2{
     width: 40.3vw;
     height: 4vh;
-    margin-top: 5%;
+    margin-top: 6vh;
 }
